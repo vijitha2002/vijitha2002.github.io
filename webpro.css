@@ -1,0 +1,135 @@
+/* Navbar background */
+nav.navbar {
+  background-color: rgb(182, 176, 153);
+}
+
+/* Logo color */
+.logo {
+  color: gold;
+}
+
+/* Remove manual positioning from navbar-brand, use padding instead */
+.navbar-brand {
+  padding-left: 3rem; /* approx 70px */
+}
+
+/* Remove manual positioning on navbar-nav; use Bootstrap spacing */
+.navbar-nav {
+  margin-left: 8rem; /* approx 150px */
+}
+
+/* Same for nav-item1 (dropdown menu) */
+.nav-item1 {
+  /* Instead of relative left, use margin */
+  margin-left: 8rem;
+}
+
+/* Contact button wrapper */
+.kk {
+  margin-left: 8rem;
+  position: relative;
+  right: 130px;
+}
+
+/* Offcanvas header title */
+.offcanvas-title {
+  padding-left: 8rem;
+}
+
+/* Offcanvas background */
+.offcanvas-body {
+  background-color: rgb(182, 176, 153);
+}
+
+/* Home section styling */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(92, 89, 89, 0.541);
+  padding: 20px;
+}
+
+/* Social icons */
+.ss {
+  color: black;
+  font-size: 28px;
+  margin: 0 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  /* Remove left offset for better centering */
+  position: relative;
+  left: 0;
+}
+
+.ss:hover {
+  color: gold;
+  transform: scale(1.2);
+}
+
+/* Navbar link colors */
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: gold !important;
+}
+
+/* Text colors */
+.text {
+  color: gold;
+}
+
+.text1 {
+  color: black;
+}
+
+/* About Us section */
+.about-us {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.lead {
+  color: white;
+}
+
+.tt {
+  position: relative;
+  top: 100px;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease-in-out;
+  background-color: gold;
+}
+
+/* Collections section */
+.coll {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(92, 89, 89, 0.541);
+}
+
+/* Fix hover selector: remove space */
+.mt-3:hover {
+  color: rgb(215, 218, 32);
+}
+
+/* Categories section */
+.cat {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+/* Contact section */
+.cont {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(182, 176, 153);
+}
+

@@ -1,0 +1,196 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.text{
+  color: yellow;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: rgb(27, 24, 24);
+  padding: 1rem 2rem;
+}
+
+.navbar-brand h4 {
+  margin: 0;
+}
+
+.logo {
+  color: yellow;
+}
+
+.logo1 {
+  color: white;
+}
+
+/* Nav Links */
+.nav-link {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: yellow !important;
+}
+
+/* Offcanvas background */
+.offcanvas-body {
+  background-color: rgb(27, 24, 24);
+}
+
+/* Section Common Styling */
+section {
+  width: 100%;
+}
+
+/* Home Section */
+#home {
+  background-color: rgb(204, 204, 245);
+  text-align: center;
+}
+
+#home .text-warning {
+  color: yellow;
+}
+
+#home .btn-warning {
+  background-color: yellow;
+  color: black;
+  border: none;
+}
+
+#home .btn-warning:hover {
+  background-color: #e6c200;
+  color: black;
+}
+
+/* About Section */
+#about {
+  background-color: rgb(27, 24, 24);
+  color: white;
+}
+
+#about h2 {
+  color: yellow;
+}
+
+/* Skills Section */
+#skills {
+  background-color: rgb(204, 204, 245);
+}
+.skill-card i {
+  font-size: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.skill-card {
+  background-color: rgb(27, 24, 24);
+  border-radius: 12px;
+  padding: 25px 20px;
+  color: white;
+  box-shadow: 0 8px 16px yellow;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-card h4 {
+  color: yellow;
+}
+.skill-icon {
+  font-size: 24px;
+  color: yellow;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+/* Projects Section */
+#projects {
+  background-color: rgb(27, 24, 24);
+}
+
+.project-card {
+  background-color: rgb(204, 204, 245);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 10px 16px yellow;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h4 {
+  color: yellow;
+}
+
+/* Contact Section */
+#contact {
+  background-color: rgb(204, 204, 245);
+  text-align: center;
+}
+
+#contact h2 {
+  color: #333;
+}
+
+#contact .lead {
+  margin-bottom: 1rem;
+}
+
+/* Social Icons */
+.bi {
+  color: black;
+  font-size: 28px;
+  margin: 0 15px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.bi:hover {
+  color: yellow;
+  transform: scale(1.2);
+}
+
+/* Button Styling */
+.btn-warning {
+  background-color: yellow;
+  color: black;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-warning:hover {
+  background-color: #e6c200;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .offcanvas-title {
+    padding-left: 1rem;
+  }
+
+  .nav-item {
+    margin-left: 0 !important;
+    margin-bottom: 1rem;
+  }
+}
